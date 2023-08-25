@@ -14,4 +14,4 @@ gpio.on("change", (pin, value) => {
     gpio.write(led_pin, value);
 });
 
-console.log("watching pin " + btn_pin + "...");
+console.log("watching pins...");
