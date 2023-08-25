@@ -32,4 +32,4 @@ gpio.on("change", (pin, value) => {
     }
 });
 
-console.log("watching pin " + btn_pin + "...");
+console.log("watching pins...");
