@@ -1,0 +1,13 @@
+[Unit]
+Description=Scanshredd Pi service
+Requires=dev-serial0.device
+After=dev-serial0.device
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi
+ExecStart=/usr/local/bin/node scanshredd.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
