@@ -31,7 +31,6 @@ const cam = new RaspiCam({
     output: "./photo.png",
     width: 1920,
     height: 1080,
-    rotation: 90,
     encoding: "png"
 });
 
