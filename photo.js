@@ -4,7 +4,8 @@ const RaspiCam = require("raspicam");
 
 const cam = new RaspiCam({
     mode: "photo",
-    output: "./photo.jpg"
+    output: "./photo.png",
+    e: "png"
 });
 
 cam.start();
